@@ -1,0 +1,13 @@
+*.pro.user*
+build*
+DeBug/
+*.db*
+.suo
+*.vcxproj*
+*.opendb
+*.ipch
+*.dll
+*.exe
+
+
+git.txt
