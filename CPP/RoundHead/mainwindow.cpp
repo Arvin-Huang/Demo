@@ -59,8 +59,6 @@ void MainWindow::paintEvent(QPaintEvent *)
 //    painter.setBrush(QBrush(Qt::transparent, Qt::SolidPattern));
 //    painter.drawEllipse(headImag->rect());
 //    painter.drawPixmap(0,0,QPixmap::fromImage(*headImag));
-
-
     /**
      *窗体不透明时
      */
@@ -76,9 +74,6 @@ void MainWindow::paintEvent(QPaintEvent *)
      painter.setCompositionMode(QPainter::CompositionMode_DestinationOver);
      //绘制头像
      painter.drawPixmap(0,0,QPixmap::fromImage(*headImag));
-
-
-
 
 }
 
